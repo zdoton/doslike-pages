@@ -1,0 +1,115 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'dosv';
+    font-weight: 400;
+    src: url("Web437_IBM_VGA_9x16.woff") format("woff");
+}
+
+/*
+COLORS
+================================================ */
+:root {
+    --grey: #afafaf;
+    --white: #fff;
+}
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 140%;
+    /* スムーズスクロール */
+    scroll-behavior: smooth;
+}
+body {
+	font-family: 'dosv',sans-serif;
+    background-color: black;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 100%;
+    height: 20px;
+    text-align: end;
+    transform-origin: bottom right;
+    transform: scale(0.83,1);
+    color: #373737;
+  }
+
+/*
+COMMON
+================================================ */
+p {
+    line-height: 1;
+    transform-origin: top left;
+    transform: scale(0.83,1);
+    color: white;
+}
+
+pre {
+	font-family: 'dosv',sans-serif;
+    line-height: 1;
+    transform-origin: top left;
+    transform: scale(0.83,1);
+    color: #afafaf;
+}
+
+.startup .uainfo {
+    opacity: 0;
+}
+
+.startup .cssinfo {
+    opacity: 0;
+}
+
+.startup .progress-bar {
+    opacity: 0;
+}
+
+.startup .footerinfo {
+    opacity: 0;
+}
+
+.console {
+    display: none;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.console .linkinfo{
+    opacity: 0;
+}
+
+.console .linetext1{
+    opacity: 0;
+}
+
+.console .texting1{
+    opacity: 0;
+}
+
+.console .texting2{
+    opacity: 0;
+}
+
+.console .image1{
+    opacity: 0;
+}
+
+.console .texting3{
+    opacity: 0;
+}
+
+.console .map1{
+    opacity: 0;
+}
+
+.console .textcursor{
+    opacity: 0;
+}
+
+#inputField{
+    caret-color: transparent;
+}
