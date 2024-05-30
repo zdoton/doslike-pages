@@ -56,6 +56,10 @@ pre {
     color: #afafaf;
 }
 
+.startup{
+    width: 100%;
+}
+
 .startup .uainfo {
     opacity: 0;
 }
@@ -75,7 +79,7 @@ pre {
 .console {
     display: none;
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
 }
 
 .console .linkinfo{

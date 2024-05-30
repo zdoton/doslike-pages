@@ -150,7 +150,7 @@ anime.timeline({})
     duration: 200,
     complete: function(){
       clearIntervalFunc();
-      document.getElementById("inputField").focus();
+      //document.getElementById("inputField").focus();
       anime({
         targets: '.console .textcursor .cursor',
         loop: 300,
