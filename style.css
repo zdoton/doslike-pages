@@ -120,4 +120,8 @@ pre {
 
 @media screen and (max-width: 768px){
     footer {display:none;}
+    .console{
+        width: 100%;
+    }
+
 }
