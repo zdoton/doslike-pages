@@ -122,6 +122,7 @@ pre {
     footer {display:none;}
     .console{
         width: 100%;
+        height: auto;
     }
 
 }
