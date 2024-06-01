@@ -121,7 +121,7 @@ pre {
 
 @media screen and (max-width: 768px){
     footer {display:none;}
-    body {font-size: 80%;}
+    body {font-size: 50%;}
 
     .console{
         width: 400px;
