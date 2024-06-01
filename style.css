@@ -121,11 +121,23 @@ pre {
 
 @media screen and (max-width: 768px){
     footer {display:none;}
+    body {font-size: 80%;}
+
     .console{
         width: 400px;
         height: 50%;
         margin-right: auto;
         margin-left: 0;
+    }
+
+    .image1 .curry1{
+        height: 200px;
+        width: 300px;
+    }
+
+    .map1 .mapdata{
+        height: 300px;
+        width: 400px;
     }
 
 }
