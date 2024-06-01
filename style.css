@@ -78,7 +78,8 @@ pre {
 
 .console {
     display: none;
-    margin: 0 auto;
+    margin-right:auto;
+    margin-left:auto;
     width: 800px;
 }
 
@@ -121,8 +122,10 @@ pre {
 @media screen and (max-width: 768px){
     footer {display:none;}
     .console{
-        width: 100%;
-        height: auto;
+        width: 400px;
+        height: 50%;
+        margin-right: auto;
+        margin-left: 0;
     }
 
 }
